@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="908c578f-16a0-4c0e-8d0f-7ce49077b6fb" name="Kids Centered Stocks Manager" linkedPackageId="eab9ed83-28e6-47cb-b061-4c07a0cbf541" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="457b4d76-fa89-49f8-9b72-f77886da5079" name="User" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="839859e2-d1c4-43ff-8ed2-3ca024552110" />
+        <targetEnds>
+          <association Id="53ae77d1-eb6f-4261-a561-4c18befb831a" isDerived="false" sourceEndRoleName="User" targetEndRoleName="View Stocks List" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="5330257b-3316-42db-840c-afbd72ec651f" LastKnownName="View Stocks List" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="98393c04-c6ad-4078-9337-5d9aa5f82f71" name="User" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="3491d193-fa0d-407a-94d6-226e216c3ec4" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="583380ee-8e2d-4841-b317-9aa7ff8eba4c" name="View Stocks List" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="fcc8cb8c-6ca2-44bd-8301-b52068ab1ea6" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="0dabbb3a-0064-4f7e-b484-2c428f1a7c04" />
+          </association>
+          <association Id="28529c18-b061-4a1b-9ebd-00f7e1ca3fbe" isDerived="false" sourceEndRoleName="User" targetEndRoleName="Add New Stocks" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="c6a99cf9-1625-46fa-b665-8d5c900baced" LastKnownName="Add New Stocks" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="282c3c4d-4154-4bd5-953a-4b675ce2ceaa" name="User" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="5021861a-31f9-4240-bb32-ccd6d7cc88cb" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a1b3d8b9-2240-4a88-bb99-02911ae4e0ea" name="Add New Stocks" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="ad4cd252-30f6-4b9f-8f68-3f5d8bcfce33" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="e87374a8-7dcc-4b0c-aa30-b5d1700b37ab" />
+          </association>
+          <association Id="5c2f1d00-4fed-4489-a0ed-c9239a06b4fd" isDerived="false" sourceEndRoleName="User" targetEndRoleName="Compute Total Investment" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="5d67078c-218a-4c3d-bfea-267c92b43589" LastKnownName="Compute Total Investment" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d0a1b09b-e85a-4694-aaac-7f5015a52da5" name="User" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="2d9c6e37-2366-49e1-aa95-386b2268df58" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="1087fa2e-8ceb-4546-a2a0-339e144116bc" name="Compute Total Investment" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="8357c16b-740f-4ac1-80b8-ec5ef11f7a55" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="e68b8484-c696-4959-a387-e12edaebd381" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="5330257b-3316-42db-840c-afbd72ec651f" name="View Stocks List" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="0201f1bc-6be4-4037-9587-773b8b778893" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="c6a99cf9-1625-46fa-b665-8d5c900baced" name="Add New Stocks" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="2ed3468a-f1e5-4af8-bbc7-e1cf0eec4c40" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="5d67078c-218a-4c3d-bfea-267c92b43589" name="Compute Total Investment" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="a7f4039b-fbc4-4781-b025-b5053a5610c8" />
+      </useCase>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="eab9ed83-28e6-47cb-b061-4c07a0cbf541" name="Kids Centered Stocks Manager">
+    <elementDefinition Id="007b9181-64bd-4cd0-b617-501f0909c07f" />
+    <profileInstances>
+      <packageHasProfileInstances Id="5bf84348-1206-43ee-adc5-c575e9b8857f">
+        <profileInstance Id="920d0da9-f2a5-4d54-af3f-9ca2245a9566" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="7e9642e5-df6f-4d78-af12-c34c64000101">
+        <profileInstance Id="c33a41a4-cebd-4967-a255-c312f27b0804" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</useCaseModelRoot>

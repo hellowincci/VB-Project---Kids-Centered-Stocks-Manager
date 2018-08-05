@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm9="http://schemas.microsoft.com/dsltools/UseCaseModel"
+  dslVersion="1.0.0.0"
+  Id="007b9181-64bd-4cd0-b617-501f0909c07f"
+  name="Kids Centered Stocks Manager" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <actor
+        Id="839859e2-d1c4-43ff-8ed2-3ca024552110"
+        name="User"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="a4e36d28-cfb2-4213-821e-4515e5c37005"
+            isDerived="false"
+            sourceEndRoleName="User"
+            targetEndRoleName="View Stocks List"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="fb6047ad-3721-4d6d-8463-5d63271fe7df"
+              LastKnownName="View Stocks List"
+              LastKnownLocation="Kids Centered Stocks Manager.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="e010312d-b50e-4179-bec1-d088434798d2"
+                  name="User"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="49b5d8e1-6806-470d-aa64-9036bd28e508"
+                  name="View Stocks List"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="f6122084-32f6-4c6a-9d8d-3ac90d64f05c"
+            isDerived="false"
+            sourceEndRoleName="User"
+            targetEndRoleName="Add New Stocks"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="835ff69e-08a4-4dd1-8eea-a59f7e8a1214"
+              LastKnownName="Add New Stocks"
+              LastKnownLocation="Kids Centered Stocks Manager.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="b5c74424-0353-4169-969e-272dacb282f8"
+                  name="User"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="b2b9bd13-3413-4b48-852e-20e43bf22c54"
+                  name="Add New Stocks"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="0dabbb3a-0064-4f7e-b484-2c428f1a7c04"
+            isDerived="false"
+            sourceEndRoleName="User"
+            targetEndRoleName="View Stocks List"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="0201f1bc-6be4-4037-9587-773b8b778893"
+              LastKnownName="View Stocks List"
+              LastKnownLocation="Kids Centered Stocks Manager.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="3491d193-fa0d-407a-94d6-226e216c3ec4"
+                  name="User"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="fcc8cb8c-6ca2-44bd-8301-b52068ab1ea6"
+                  name="View Stocks List"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="e87374a8-7dcc-4b0c-aa30-b5d1700b37ab"
+            isDerived="false"
+            sourceEndRoleName="User"
+            targetEndRoleName="Add New Stocks"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="2ed3468a-f1e5-4af8-bbc7-e1cf0eec4c40"
+              LastKnownName="Add New Stocks"
+              LastKnownLocation="Kids Centered Stocks Manager.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="5021861a-31f9-4240-bb32-ccd6d7cc88cb"
+                  name="User"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="ad4cd252-30f6-4b9f-8f68-3f5d8bcfce33"
+                  name="Add New Stocks"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="e68b8484-c696-4959-a387-e12edaebd381"
+            isDerived="false"
+            sourceEndRoleName="User"
+            targetEndRoleName="Compute Total Investment"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="a7f4039b-fbc4-4781-b025-b5053a5610c8"
+              LastKnownName="Compute Total Investment"
+              LastKnownLocation="Kids Centered Stocks Manager.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="2d9c6e37-2366-49e1-aa95-386b2268df58"
+                  name="User"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="8357c16b-740f-4ac1-80b8-ec5ef11f7a55"
+                  name="Compute Total Investment"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="835ff69e-08a4-4dd1-8eea-a59f7e8a1214"
+        name="Add New Stocks"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="fb6047ad-3721-4d6d-8463-5d63271fe7df"
+        name="View Stocks List"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="e9124ae2-9c6f-44f4-a635-d7aa2c3810c0"
+        name="UseCase2"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <subsystem
+        Id="61163875-c044-4303-a8b0-86d3c50f96a2"
+        name="Subsystem1"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="0201f1bc-6be4-4037-9587-773b8b778893"
+        name="View Stocks List"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="2ed3468a-f1e5-4af8-bbc7-e1cf0eec4c40"
+        name="Add New Stocks"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="a7f4039b-fbc4-4781-b025-b5053a5610c8"
+        name="Compute Total Investment"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>

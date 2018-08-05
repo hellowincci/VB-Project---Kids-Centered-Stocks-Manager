@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Kids Centered Stocks Manager">
+  <useCaseModelRootMoniker Id="908c578f-16a0-4c0e-8d0f-7ce49077b6fb" />
+  <nestedChildShapes>
+    <actorShape Id="86516a35-9caf-45dd-a664-a391a8ba4210" absoluteBounds="1.625, 1.75, 0.5, 0.5" isReference="false" heightOffset="0">
+      <actorMoniker Id="457b4d76-fa89-49f8-9b72-f77886da5079" LastKnownName="User" />
+      <relativeChildShapes />
+    </actorShape>
+    <useCaseShape Id="a0fb4956-6150-4c45-a36f-ea8220b78784" absoluteBounds="2.875, 1.125, 1.25, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="5330257b-3316-42db-840c-afbd72ec651f" LastKnownName="View Stocks List" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(2.125 : 1.86989802696781); (2.91236646723163 : 1.46014630342292)]" fixedFrom="Algorithm" fixedTo="Caller" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="53ae77d1-eb6f-4261-a561-4c18befb831a" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="86516a35-9caf-45dd-a664-a391a8ba4210" />
+        <useCaseShapeMoniker Id="a0fb4956-6150-4c45-a36f-ea8220b78784" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="7fec4713-f012-42fd-81ba-dac295d4e172" absoluteBounds="2.875, 1.875, 1.25, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="c6a99cf9-1625-46fa-b665-8d5c900baced" LastKnownName="Add New Stocks" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(2.125 : 2.01830276614498); (2.88805637724003 : 2.07416693585721)]" fixedFrom="Algorithm" fixedTo="Caller" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="28529c18-b061-4a1b-9ebd-00f7e1ca3fbe" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="86516a35-9caf-45dd-a664-a391a8ba4210" />
+        <useCaseShapeMoniker Id="7fec4713-f012-42fd-81ba-dac295d4e172" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseShape Id="ca259abd-ff97-47ef-bda6-efd0b28dbf45" absoluteBounds="2.875, 2.625, 1.25, 0.5" customColor="238, 237, 131" heightOffset="0">
+      <useCaseMoniker Id="5d67078c-218a-4c3d-bfea-267c92b43589" LastKnownName="Compute Total Investment" />
+      <relativeChildShapes />
+    </useCaseShape>
+    <useCaseAssociationConnector edgePoints="[(2.125 : 2.21844588972568); (2.87500732107603 : 2.8737899559386)]" fixedFrom="Algorithm" fixedTo="Caller" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="5c2f1d00-4fed-4489-a0ed-c9239a06b4fd" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="86516a35-9caf-45dd-a664-a391a8ba4210" />
+        <useCaseShapeMoniker Id="ca259abd-ff97-47ef-bda6-efd0b28dbf45" />
+      </nodes>
+    </useCaseAssociationConnector>
+  </nestedChildShapes>
+</useCaseDiagram>

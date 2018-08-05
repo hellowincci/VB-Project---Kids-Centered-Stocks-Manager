@@ -1,0 +1,13 @@
+C:\Users\AhXi\Documents\Visual Studio 2010\Projects\Kids Centered Stocks Manager.vb\Kids Centered Stocks Manager.vb\bin\Debug\stocks.mdb
+C:\Users\AhXi\Documents\Visual Studio 2010\Projects\Kids Centered Stocks Manager.vb\Kids Centered Stocks Manager.vb\bin\Debug\Kids Centered Stocks Manager.vb.exe.config
+C:\Users\AhXi\Documents\Visual Studio 2010\Projects\Kids Centered Stocks Manager.vb\Kids Centered Stocks Manager.vb\bin\Debug\Kids Centered Stocks Manager.vb.exe
+C:\Users\AhXi\Documents\Visual Studio 2010\Projects\Kids Centered Stocks Manager.vb\Kids Centered Stocks Manager.vb\bin\Debug\Kids Centered Stocks Manager.vb.pdb
+C:\Users\AhXi\Documents\Visual Studio 2010\Projects\Kids Centered Stocks Manager.vb\Kids Centered Stocks Manager.vb\bin\Debug\Kids Centered Stocks Manager.vb.xml
+C:\Users\AhXi\Documents\Visual Studio 2010\Projects\Kids Centered Stocks Manager.vb\Kids Centered Stocks Manager.vb\obj\x86\Debug\Kids_Centered_Stocks_Manager.vb.MainForm.resources
+C:\Users\AhXi\Documents\Visual Studio 2010\Projects\Kids Centered Stocks Manager.vb\Kids Centered Stocks Manager.vb\obj\x86\Debug\Kids_Centered_Stocks_Manager.vb.Resources.resources
+C:\Users\AhXi\Documents\Visual Studio 2010\Projects\Kids Centered Stocks Manager.vb\Kids Centered Stocks Manager.vb\obj\x86\Debug\Kids Centered Stocks Manager.vb.vbproj.GenerateResource.Cache
+C:\Users\AhXi\Documents\Visual Studio 2010\Projects\Kids Centered Stocks Manager.vb\Kids Centered Stocks Manager.vb\obj\x86\Debug\Kids Centered Stocks Manager.vb.exe
+C:\Users\AhXi\Documents\Visual Studio 2010\Projects\Kids Centered Stocks Manager.vb\Kids Centered Stocks Manager.vb\obj\x86\Debug\Kids Centered Stocks Manager.vb.xml
+C:\Users\AhXi\Documents\Visual Studio 2010\Projects\Kids Centered Stocks Manager.vb\Kids Centered Stocks Manager.vb\obj\x86\Debug\Kids Centered Stocks Manager.vb.pdb
+C:\Users\AhXi\Documents\Visual Studio 2010\Projects\Kids Centered Stocks Manager.vb\Kids Centered Stocks Manager.vb\obj\x86\Debug\Kids_Centered_Stocks_Manager.vb.AllStocksForm.resources
+C:\Users\AhXi\Documents\Visual Studio 2010\Projects\Kids Centered Stocks Manager.vb\Kids Centered Stocks Manager.vb\obj\x86\Debug\Kids_Centered_Stocks_Manager.vb.AddNewStockForm.resources
